@@ -101,4 +101,32 @@ body{
     left: 0;
     position: absolute;
     background-color: orange;
+    animation-name: anim4;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    margin-top: 100px;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes anim4{
+    0%{
+        background-color: blueviolet;
+        left: 0; top: 500px;
+    }
+    25%{
+        left: 200px;
+        top: 500px;
+    }
+    50%{
+        left: 200px;
+        top: 700px;
+    }
+    75%{
+        left: 0px;
+        top: 700px;
+    }
+    100%{
+        left: 0;
+        top: 500px;
+    }
 }
