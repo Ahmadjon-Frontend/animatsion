@@ -77,6 +77,28 @@ body{
     animation-direction: reverse;
 }
 @keyframes anim3  {
-    0%
-    ba
+    0%{
+        background-color: blueviolet;
+        left: 0; top: 420px;
+    }
+    25%{
+        left: 200px; 
+        top: 420px;
+    }
+    50%{
+        left: 200px;
+        top: 600px;
+    }
+    75%{
+        left: 0;top: 420px;
+    }
+    
+}
+.anim4{
+    width: 100px;
+    height: 100px;
+    top: 500px;
+    left: 0;
+    position: absolute;
+    background-color: orange;
 }
